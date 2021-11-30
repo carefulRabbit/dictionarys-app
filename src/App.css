@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+input{
+  margin: 30px auto;
+  display: block;
+  padding: 10px 20px;
+  
+  border-radius: 30px;
+  border-style: solid;
+  
+}
+input:focus{
+  outline: 1px solid lightblue;
+}
+
+footer{
+  margin: 50px auto;
+  color: gray;
+}
