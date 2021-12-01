@@ -23,7 +23,6 @@ export default function Dictionary() {
         <input
           type="search"
           placeholder="Search a word"
-          autoComplete={false}
           autoFocus={true}
           onChange={handleKeywordChange}
         />
