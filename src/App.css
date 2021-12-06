@@ -1,21 +1,85 @@
 .App {
   text-align: center;
+  background: #AEB8C1;
 }
 
-input{
-  margin: 30px auto;
-  display: block;
-  padding: 10px 20px;
-  
-  border-radius: 30px;
-  border-style: solid;
-  
-}
-input:focus{
-  outline: 1px solid lightblue;
-}
-
-footer{
+.container footer{
   margin: 50px auto;
   color: gray;
+}
+
+.Dictionary section{
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  margin: 20px 0;
+}
+
+.Dictionary input{
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  color: #333;
+}
+.Dictionary input:focus{
+  outline: none;
+}
+.Dictionary h1{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Results h2{
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.Meaning h3{
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.Meaning .example{
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+.Phonetics{
+  margin: 15px 0;
+}
+.Phonetics a{
+  border: 1px solid #ddd;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  transition: 150ms all ease-in-out;
+}
+
+.Phonetics a:hover{
+  background: #AEB8C1;
+  color: white;
+}
+
+.Phonetics .text{
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.Synonym{
+  margin: 20px 0 0;
+  padding: 0;
+}
+.Synonym li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 15px;
+  font-size: 14px;
 }
