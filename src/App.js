@@ -9,7 +9,10 @@ function App() {
       <main>
         <Dictionary defaultKeyword="forest" />
       </main>
-      <footer className="text-center">Coded by Emily</footer>
+      <footer className="text-center">
+        Coded by{" "}
+        <a href="https://github.com/carefulRabbit/dictionarys-app" rel="noreferrer">Emily</a>{" "}
+      </footer>
     </div>
   );
 }

@@ -1,11 +1,22 @@
 .App {
   text-align: center;
   background: #AEB8C1;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .container footer{
   margin: 50px auto;
   color: gray;
+}
+.container a{
+  text-decoration: none; 
+  color: #213951;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.container a:hover{
+  opacity: 1;
 }
 
 .Dictionary section{
@@ -36,6 +47,7 @@
   font-size: 36px;
   font-weight: bold;
   line-height: 1.5;
+  color: #525659;
 }
 
 .Meaning h3{
@@ -82,4 +94,9 @@
   list-style: none;
   padding-right: 15px;
   font-size: 14px;
+}
+
+.Photos img{
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
