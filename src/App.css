@@ -4,7 +4,31 @@
   max-width: 960px;
   margin: 0 auto;
 }
-
+.App-header{
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 20%);
+}
+.logo{
+  max-width: 150px; 
+}
+.big-paragraph{
+  padding-left: 50px;
+  display: inline-block;
+  font-size: 42px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #373d57;
+}
+@media (max-width: 550px) {
+  .logo{
+    max-width: 80px;
+  }
+  .big-paragraph{
+    padding-left: 10px;
+    font-size: 30px;
+  }
+}
 .container footer{
   margin: 50px auto;
   color: gray;
@@ -55,6 +79,7 @@
   font-size: 24px;
   line-height: 1.5;
   font-weight: bold;
+  color: #373d57;
 }
 .Meaning .example{
   font-size: 13px;
